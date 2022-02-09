@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Mali:ital,wght@0,200;1,200&display=swap');
+
+
+.top-container {
+    background-color: #E4F9F5;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.top-container h1 {
+    margin-bottom: 20px;
+    font-family: 'Comforter', cursive;
+    color: #1A374D;
+}
+
+.top-container p {
+    margin-bottom: 30px;
+    font-family: 'Mali', cursive;
+}
+
+.pro {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 900px) {
+    .sagrada {
+        width: 80%;
+        position: relative;
+    }
+}
+
+.sagrada {
+    position: relative;
+}
+
+@media screen and (max-width: 900px) {
+    .cloud1 {
+        width: 20%;
+        margin-left: -120px;
+    }
+}
+
+.cloud1 {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 105px;
+}
+
+@media screen and (max-width: 900px) {
+    .cloud2 {
+        width: 20%;
+        margin-left: -120px;
+    }
+}
+
+.cloud2 {
+    position: absolute;
+    margin-top: 150px;
+    left: 35%;
+}
